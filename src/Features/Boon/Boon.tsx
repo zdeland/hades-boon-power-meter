@@ -25,7 +25,7 @@ export default function Boon (props: IBoonProps) {
             <td>Buff Category:</td><td>{props.buff_category}</td>
           </tr>
           <tr>
-            <td>DMG Modifier:</td><td>{props.damage_modifier > 0 ? `+${props.damage_modifier}` : `-${props.damage_modifier}`}</td>
+            <td>DMG Modifier:</td><td>{props.damage_modifier > 0 ? `+${props.damage_modifier}` : `${props.damage_modifier}`}</td>
           </tr>
         </tbody>
       </table>

@@ -20,7 +20,7 @@ function HomePage() {
         <BoonList boonList={[
           <Boon id={'zach-id'} name={'ZRD Mega Nuke'} god={'ZRD'} weapon_category={'attack'} buff_category={'damage'} damage_modifier={1000} />,
           <Boon id={'zach-id'} name={'ZRD Slippery Noodle'} god={'ZRD'} weapon_category={'Special'} buff_category={'damage'} damage_modifier={300} />,
-          <Boon id={'zach-id-2'} name={'ZRD Whimpy Whistle'} god={'ZRD'} weapon_category={''} buff_category={'support'} damage_modifier={0} />
+          <Boon id={'zach-id-2'} name={'ZRD Whimpy Whistle'} god={'ZRD'} weapon_category={''} buff_category={'support'} damage_modifier={-100} />
         ]} />
         </header>
     </div>
