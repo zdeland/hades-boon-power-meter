@@ -1,16 +1,21 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import OrigDataInterface from "./Boon/OrigDataInterface"
 import IBoonProps from "./Boon/BoonInterface";
+import boonTestData from '../../Data/boons-test.json'
 import boonData from '../../Data/boons.json'
 
 
 type InitialState = {
-  boons: IBoonProps[]
+  boonsSet1: OrigDataInterface[],
+  boonsSet2: OrigDataInterface[],
 }
 
-const ZrdBoon = {id:'zach-id', name: 'ZRD Mega Nuke', god: 'ZRD', weapon_category: 'attack', buff_category: 'damage', damage_modifier: 1000}
+const data1 = boonTestData.data;
+const data2 = boonData.data;
 
 const initialState: InitialState = {
-  boons: [ZrdBoon]
+  boonsSet1: [...data1],
+  boonsSet2: [...data2],
 }
 
 const boonMeterSlice = createSlice({

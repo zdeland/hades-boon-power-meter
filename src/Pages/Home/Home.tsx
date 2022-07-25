@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from '../../Assets/Images/crap_hades_logo.png';
 import './HomePage.css';
 import charon_obol from '../../Assets/Images/charon_obol.jpg';
 import BoonList from '../../Features/Boon_Meter/Boon-List/Boon-List';
-import Boon from '../../Features/Boon_Meter/Boon/Boon'
+
 
 import { useAppSelector } from '../../App/hooks'
+import IOrigDataProps from '../../Features/Boon_Meter/Boon/OrigDataInterface';
 
 
 
@@ -13,13 +12,13 @@ function HomePage() {
   const appState = useAppSelector(state => state)
   console.log('appState',appState)
 
-  // let boons: React.ReactElement[] = []
+  const boonSet1: IOrigDataProps[] = appState.boonMeter.boonsSet1.map(b=>{
+    return b
+  })
 
-  // boons = appState.boonMeter.boons.map(b=>{
-  //   <Boon id={'zach-id'} name={'ZRD Mega Nuke'} god={'ZRD'} weapon_category={'attack'} buff_category={'damage'} damage_modifier={1000} />
-  // })
-
-  // console.log("BOONS: ", boons)
+  const boonSet2: IOrigDataProps[] = appState.boonMeter.boonsSet2.map(b=>{
+    return b
+  })
 
  
   return (
@@ -32,7 +31,10 @@ function HomePage() {
         <br />
         <br />
         <br />
-        <BoonList />
+        <BoonList boonsList={boonSet1} />
+        <br />
+        <BoonList boonsList={boonSet2} />
+
         
         </header>
     </div>
