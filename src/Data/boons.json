@@ -1,0 +1,1267 @@
+{
+  "data": [
+    {
+      "name": "Heartbreak Strike",
+      "god": "Aphrodite",
+      "type": "attack",
+      "image": "Heartbreak_Strike.png",
+      "text": "Your <b>Attack</b> deals more damage and inflicts <b>Weak</b>."
+    },
+    {
+      "name": "Heartbreak Flourish",
+      "god": "Aphrodite",
+      "type": "special",
+      "image": "Heartbreak_Flourish.png",
+      "text": "Your <b>Special</b> deals more damage and inflicts <b>Weak</b>."
+    },
+    {
+      "name": "Crush Shot",
+      "god": "Aphrodite",
+      "type": "cast",
+      "image": "Crush_Shot.png",
+      "text": "Your <b>Cast</b> is a wide, short-range blast that inflicts <b>Weak</b>."
+    },
+    {
+      "name": "Passion Flare",
+      "god": "Aphrodite",
+      "type": "cast",
+      "image": "Crush_Shot.png",
+      "text": "Your <b>Cast</b> damages foes around you and inflicts <b>Weak</b>."
+    },
+    {
+      "name": "Passion Dash",
+      "god": "Aphrodite",
+      "type": "dash",
+      "image": "Passion_Dash.png",
+      "text": "Your <b>Dash</b> inflicts damage where you end up, inflicting <b>Weak</b>."
+    },
+    {
+      "name": "Aphrodite's Aid",
+      "god": "Aphrodite",
+      "type": "call",
+      "image": "Aphrodite's_Aid.png",
+      "text": "Your <b>Call</b> fires a seeking projectile that inflicts <b>Charm</b>."
+    },
+    {
+      "name": "Dying Lament",
+      "god": "Aphrodite",
+      "image": "Dying_Lament.png",
+      "text": "When foes are slain, they damage nearby foes and inflict <b>Weak</b>."
+    },
+    {
+      "name": "Wave of Despair",
+      "god": "Aphrodite",
+      "image": "Wave_of_Despair.png",
+      "text": "After you take damage, damage nearby foes and inflict <b>Weak</b>."
+    },
+    {
+      "name": "Different League",
+      "god": "Aphrodite",
+      "image": "Different_League.png",
+      "text": "Resist some damage from nearby foes' attacks."
+    },
+    {
+      "name": "Life Affirmation",
+      "god": "Aphrodite",
+      "image": "Life_Affirmation.png",
+      "text": "Any Health or Health chamber rewards are worth more."
+    },
+    {
+      "name": "Empty Inside",
+      "god": "Aphrodite",
+      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"],
+      "image": "Empty_Inside.png",
+      "text": "Your <b>Weak</b> effects have a longer duration."
+    },
+    {
+      "name": "Sweet Surrender",
+      "god": "Aphrodite",
+      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"],
+      "image": "Sweet_Surrender.png",
+      "text": "<b>Weak</b>-afflicted foes are also more susceptible to damage."
+    },
+    {
+      "name": "Broken Resolve",
+      "god": "Aphrodite",
+      "prerequisites": ["Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"],
+      "image": "Broken_Resolve.png",
+      "text": "Your <b>Weak</b> effects are more potent."
+    },
+    {
+      "name": "Blown Kiss",
+      "god": "Aphrodite",
+      "prerequisites": ["Crush Shot"],
+      "image": "Blown_Kiss.png",
+      "text": "Your <b>Cast</b> shoots farther and is stronger against undamaged foes."
+    },
+    {
+      "name": "Unhealthy Fixation",
+      "god": "Aphrodite",
+      "legendary": true,
+      "prerequisites": [
+        "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish",
+        "Empty Inside, Sweet Surrender, Broken Resolve"
+      ],
+      "image": "Unhealthy_Fixation.png",
+      "text": "Your <b>Weak</b> effects also have a 15% chance to Charm foes."
+    },
+    {
+      "name": "Curse of Agony",
+      "god": "Ares",
+      "type": "attack",
+      "image": "Curse_of_Agony.png",
+      "text": "Your <b>Attack</b> inflicts <b>Doom</b>."
+    },
+    {
+      "name": "Curse of Pain",
+      "god": "Ares",
+      "type": "special",
+      "image": "Curse_of_Pain.png",
+      "text": "Your <b>Special</b> inflicts <b>Doom</b>."
+    },
+    {
+      "name": "Slicing Shot",
+      "god": "Ares",
+      "type": "cast",
+      "image": "Slicing_Shot.png",
+      "text": "Your <b>Cast</b> sends a <b>Blade Rift</b> hurling ahead."
+    },
+    {
+      "name": "Slicing Flare",
+      "god": "Ares",
+      "type": "cast",
+      "image": "Slicing_Shot.png",
+      "text": "Your <b>Cast</b> sends a large <b>Blade Rift</b> hurling ahead for a brief time."
+    },
+    {
+      "name": "Blade Dash",
+      "god": "Ares",
+      "type": "dash",
+      "image": "Blade_Dash.png",
+      "text": "Your <b>Dash</b> creates a <b>Blade Rift</b> where you started."
+    },
+    {
+      "name": "Ares' Aid",
+      "god": "Ares",
+      "type": "call",
+      "image": "Ares'_Aid.png",
+      "text": "Your <b>Call</b> turns you into an Impervious <b>Blade Rift</b> for 1.2 Sec."
+    },
+    {
+      "name": "Curse of Vengeance",
+      "god": "Ares",
+      "image": "Curse_of_Vengeance.png",
+      "text": "After you take damage, inflict <b>Doom</b> on surrounding foes."
+    },
+    {
+      "name": "Urge to Kill",
+      "god": "Ares",
+      "image": "Urge_to_Kill.png",
+      "text": "Your <b>Attack</b> and <b>Cast</b> deal more damage."
+    },
+    {
+      "name": "Battle Rage",
+      "god": "Ares",
+      "image": "Battle_Rage.png",
+      "text": "After slaying a foe, your next <b>Attack</b> or <b>Special</b> deals more damage."
+    },
+    {
+      "name": "Blood Frenzy",
+      "god": "Ares",
+      "image": "Blood_Frenzy.png",
+      "text": "After using <b>Death Defiance</b>, deal more damage that encounter."
+    },
+    {
+      "name": "Black Metal",
+      "god": "Ares",
+      "image": "Black_Metal.png",
+      "prerequisites": ["Ares' Aid, Blade Dash, Slicing Flare, Slicing Shot"],
+      "text": "Your <b>Blade Rift</b> powers deal damage in a wider area."
+    },
+    {
+      "name": "Engulfing Vortex",
+      "god": "Ares",
+      "image": "Engulfing_Vortex.png",
+      "prerequisites": ["Ares' Aid, Blade Dash, Slicing Flare, Slicing Shot"],
+      "text": "Your <b>Blade Rift</b> effects last longer and pull foes in."
+    },
+    {
+      "name": "Dire Misfortune",
+      "god": "Ares",
+      "image": "Dire_Misfortune.png",
+      "prerequisites": ["Curse of Agony, Curse of Pain"],
+      "text": "Your <b>Doom</b> effects deal more damage when applied multiple times."
+    },
+    {
+      "name": "Impending Doom",
+      "god": "Ares",
+      "image": "Impending_Doom.png",
+      "prerequisites": ["Curse of Agony, Curse of Pain, Curse of Vengeance"],
+      "text": "Your <b>Doom</b> effects deal more damage, after +0.5 Sec."
+    },
+    {
+      "name": "Vicious Cycle",
+      "god": "Ares",
+      "legendary": true,
+      "image": "Vicious_Cycle.png",
+      "prerequisites": ["Black Metal, Engulfing Vortex"],
+      "text": "Your <b>Blade Rift</b> effects deal more damage for each consecutive hit."
+    },
+    {
+      "name": "Curse of Longing",
+      "god": "Aphrodite/Ares",
+      "duo": true,
+      "image": "Curse_of_Longing.png",
+      "prerequisites": ["Curse of Agony, Curse of Pain", "Crush Shot, Heartbreak Flourish, Heartbreak Strike, Passion Dash, Passion Flare"],
+      "text": "Your <b>Doom</b> effects continuously strike <b>Weak</b> foes."
+    },
+    {
+      "name": "Deadly Strike",
+      "god": "Artemis",
+      "type": "attack",
+      "image": "Deadly_Strike.png",
+      "text": "Your <b>Attack</b> is stronger, with +15% chance to deal <b>Critical</b> damage."
+    },
+    {
+      "name": "Deadly Flourish",
+      "god": "Artemis",
+      "type": "special",
+      "image": "Deadly_Flourish.png",
+      "text": "Your <b>Special</b> is stronger, with +20% chance to deal <b>Critical</b> damage."
+    },
+    {
+      "name": "True Shot",
+      "god": "Artemis",
+      "type": "cast",
+      "image": "True_Shot.png",
+      "text": "Your <b>Cast</b> seeks foes, with a 10% chance to deal <b>Critical</b> damage."
+    },
+    {
+      "name": "Hunter's Flare",
+      "god": "Artemis",
+      "type": "cast",
+      "image": "True_Shot.png",
+      "text": "Your <b>Cast</b> damages foes around you, with a 10% <b>Critical</b> chance."
+    },
+    {
+      "name": "Hunter Dash",
+      "god": "Artemis",
+      "type": "dash",
+      "image": "Hunter_Dash.png",
+      "text": "Your <b>Dash-Strike</b> deals more damage."
+    },
+    {
+      "name": "Artemis' Aid",
+      "god": "Artemis",
+      "type": "call",
+      "image": "Artemis'_Aid.png",
+      "text": "Your <b>Call</b> fires a seeking arrow with +35% <b>Critical</b> chance."
+    },
+    {
+      "name": "Pressure Points",
+      "god": "Artemis",
+      "image": "Pressure_Points.png",
+      "text": "Any damage you deal has a chance to be <b>Critical</b>."
+    },
+    {
+      "name": "Exit Wounds",
+      "god": "Artemis",
+      "image": "Exit_Wounds.png",
+      "prerequisites": ["Crush Shot, Electric Shot, Flood Shot, Phalanx Shot, True Shot"],
+      "text": "Your foes take damage when your Cast Ammo stuck in them is dislodged."
+    },
+    {
+      "name": "Hide Breaker",
+      "god": "Artemis",
+      "image": "Hide_Breaker.png",
+      "prerequisites": ["Artemis' Aid, Deadly Flourish, Deadly Strike, Pressure Points, True Shot"],
+      "text": "Your <b>Critical</b> effects deal even more damage to <b>Armor</b>."
+    },
+    {
+      "name": "Clean Kill",
+      "god": "Artemis",
+      "image": "Clean_Kill.png",
+      "prerequisites": ["Artemis' Aid, Deadly Flourish, Deadly Strike, Pressure Points, True Shot"],
+      "text": "Your <b>Critical</b> effects deal even more damage."
+    },
+    {
+      "name": "Hunter Instinct",
+      "god": "Artemis",
+      "image": "Hunter_Instinct.png",
+      "prerequisites": ["Deadly Flourish, Deadly Strike, Pressure Points, True Shot"],
+      "text": "Your <b>God Gauge</b> charges faster when you deal <b>Critical</b> damage."
+    },
+    {
+      "name": "Hunter's Mark",
+      "god": "Artemis",
+      "image": "Hunter's_Mark.png",
+      "prerequisites": [
+        "Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash, Pressure Points, True Shot"
+      ],
+      "text": "After you deal <b>Critical</b> damage to a foe, a foe near it is <b>Marked</b>."
+    },
+    {
+      "name": "Support Fire",
+      "god": "Artemis",
+      "image": "Support_Fire.png",
+      "prerequisites": [
+        "Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash, Pressure Points, True Shot"
+      ],
+      "text": "After you <b>Cast</b>, or hit with an <b>Attack</b> or <b>Special</b>, fire a seeking arrow."
+    },
+    {
+      "name": "Fully Loaded",
+      "god": "Artemis",
+      "legendary": true,
+      "image": "Fully_Loaded.png",
+      "prerequisites": [
+        "Exit Wounds, Pressure Points, Support Fire",
+        "Exit Wounds, Pressure Points, Support Fire"
+      ],
+      "text": "Gain extra Cast Ammo for your <b>Cast</b>."
+    },
+    {
+      "name": "Heart Rend",
+      "god": "Artemis/Aphrodite",
+      "duo": true,
+      "image": "Heart_Rend.png",
+      "prerequisites": [
+        "Deadly Flourish, Deadly Strike, Hunter's Flare, True Shot",
+        "Crush Shot, Heartbreak Flourish, Heartbreak Strike, Passion Dash, Passion Flare"
+      ],
+      "text": "Your <b>Critical</b> effects deal even more damage to <b>Weak</b> foes."
+    },
+    {
+      "name": "Hunting Blades",
+      "god": "Artemis/Ares",
+      "duo": true,
+      "image": "Hunting_Blades.png",
+      "prerequisites": [
+        "Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash",
+        "Slicing Flare, Slicing Shot"
+      ],
+      "text": "Your <b>Cast</b> creates a faster <b>Blade Rift</b> that seeks the nearest foe."
+    },
+    {
+      "name": "Divine Strike",
+      "god": "Athena",
+      "type": "attack",
+      "image": "Divine_Strike.png",
+      "text": "Your <b>Attack</b> is stronger, and can <b>Deflect</b>."
+    },
+    {
+      "name": "Divine Flourish",
+      "god": "Athena",
+      "type": "special",
+      "image": "Divine_Flourish.png",
+      "text": "Your <b>Special</b> is stronger, and can <b>Deflect</b>."
+    },
+    {
+      "name": "Phalanx Shot",
+      "god": "Athena",
+      "type": "cast",
+      "image": "Phalanx_Shot.png",
+      "text": "Your <b>Cast</b> damages foes in a small area, and can <b>Deflect</b>."
+    },
+    {
+      "name": "Phalanx Flare",
+      "god": "Athena",
+      "type": "cast",
+      "image": "Phalanx_Shot.png",
+      "text": "Your <b>Cast</b> damages foes around you, and can <b>Deflect</b>."
+    },
+    {
+      "name": "Divine Dash",
+      "god": "Athena",
+      "type": "dash",
+      "image": "Divine_Dash.png",
+      "text": "Your <b>Dash</b> deals damage and can <b>Deflect</b>."
+    },
+    {
+      "name": "Athena's Aid",
+      "god": "Athena",
+      "type": "call",
+      "image": "Athena's_Aid.png",
+      "text": "Your <b>Call</b> briefly makes you <b>Invulnerable</b> and <b>Deflect</b> all attacks."
+    },
+    {
+      "name": "Holy Shield",
+      "god": "Athena",
+      "image": "Holy_Shield.png",
+      "text": "After you take damage, damage nearby foes and briefly <b>Deflect</b>."
+    },
+    {
+      "name": "Bronze Skin",
+      "god": "Athena",
+      "image": "Bronze_Skin.png",
+      "text": "Resist damage from foes' attacks."
+    },
+    {
+      "name": "Sure Footing",
+      "god": "Athena",
+      "image": "Sure_Footing.png",
+      "text": "Resist damage from <b>Traps</b>."
+    },
+    {
+      "name": "Proud Bearing",
+      "god": "Athena",
+      "image": "Proud_Bearing.png",
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "You begin each <b>Encounter</b> with your <b>God Gauge</b> partly full."
+    },
+    {
+      "name": "Blinding Flash",
+      "god": "Athena",
+      "image": "Blinding_Flash.png",
+      "prerequisites": ["Divine Strike, Phalanx Shot, Divine Dash, Divine Flourish"],
+      "text": "Your abilities that can <b>Deflect</b> also make foes <b>Exposed</b> for 5 Sec."
+    },
+    {
+      "name": "Brilliant Riposte",
+      "god": "Athena",
+      "image": "Brilliant_Riposte.png",
+      "prerequisites": ["Divine Strike, Divine Dash, Holy Shield, Divine Flourish"],
+      "text": "When you <b>Deflect</b> attacks, they deal more damage."
+    },
+    {
+      "name": "Deathless Stand",
+      "god": "Athena",
+      "image": "Deathless_Stand.png",
+      "text": "<b>Death Defiance</b> makes you <b>Impervious</b> longer. Replenish <b>1</b> charge now."
+    },
+    {
+      "name": "Last Stand",
+      "god": "Athena",
+      "image": "Last_Stand.png",
+      "text": "<b>Death Defiance<.b> restores more Health than usual. Replenish <b>1</b> charge now."
+    },
+    {
+      "name": "Divine Protection",
+      "god": "Athena",
+      "legendary": true,
+      "image": "Divine_Protection.png",
+      "prerequisites": ["Brilliant Riposte"],
+      "text": "You have a barrier that negates incoming damage."
+    },
+    {
+      "name": "Parting Shot",
+      "god": "Athena/Aphrodite",
+      "duo": true,
+      "image": "Parting_Shot.png",
+      "prerequisites": [
+        "Divine Strike, Phalanx Shot, Divine Flourish, Divine Dash, Athena's Aid",
+        "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish, Aphrodite's Aid"
+      ],
+      "text": "Your <b>Cast</b> gains any bonuses you have for striking foes from behind."
+    },
+    {
+      "name": "Merciful End",
+      "god": "Athena/Ares",
+      "duo": true,
+      "image": "Merciful_End.png",
+      "prerequisites": [
+        "Divine Strike, Divine Flourish",
+        "Curse of Agony, Curse of Pain"
+      ],
+      "text": "Your attacks that can <b>Deflect</b> immediately activate <b>Doom</b> effects."
+    },
+    {
+      "name": "Deadly Reversal",
+      "god": "Athena/Artemis",
+      "duo": true,
+      "image": "Deadly_Reversal.png",
+      "prerequisites": [
+        "Divine Strike, Divine Flourish",
+        "Deadly Strike, Deadly Flourish, True Shot, Artemis' Aid"
+      ],
+      "text": "After you <b>Deflect</b>, briefly gain +20% chance to deal <b>Critical</b> damage."
+    },
+    {
+
+      "name": "Frost Strike",
+      "god": "Demeter",
+      "type": "attack",
+      "image": "Frost_Strike.png",
+      "text": "Your <b>Attack</b> is stronger and inflicts <b>Chill</b>."
+    },
+    {
+      "name": "Frost Flourish",
+      "god": "Demeter",
+      "type": "special",
+      "image": "Frost_Flourish.png",
+      "text": "Your <b>Special</b> is stronger and inflicts <b>Chill</b>."
+    },
+    {
+      "name": "Crystal Beam",
+      "god": "Demeter",
+      "type": "cast",
+      "image": "Crystal_Beam.png",
+      "text": "Your <b>Cast</b> drops a crystal that fires a beam straight ahead for <b>5 sec</b>."
+    },
+    {
+      "name": "Icy Flare",
+      "god": "Demeter",
+      "type": "cast",
+      "image": "Crystal_Beam.png",
+      "text": "Your <b>Cast</b> damages foes around you and inflicts <b>Chill</b>."
+    },
+    {
+      "name": "Mistral Dash",
+      "god": "Demeter",
+      "type": "dash",
+      "image": "Mistral_Dash.png",
+      "text": "Your <b>Dash</b> shoots a gust ahead that inflicts <b>Chill</b>."
+    },
+    {
+      "name": "Demeter's Aid",
+      "god": "Demeter",
+      "type": "call",
+      "image": "Demeter's_Aid.png",
+      "text": "Your <b>Call</b> creates a winter vortex for 5 Sec., deals damage every 0.25 Sec inflicting <b>Chill</b>."
+    },
+    {
+      "name": "Frozen Touch",
+      "god": "Demeter",
+      "image": "Frozen_Touch.png",
+      "text": "After you take damage, damage and completely <b>Chill</b> your foe."
+    },
+    {
+      "name": "Rare Crop",
+      "god": "Demeter",
+      "image": "Rare_Crop.png",
+      "text": "Your <b>Boons</b> become Common, then gain Rarity every <b>3 Encounter(s)</b>."
+    },
+    {
+      "name": "Ravenous Will",
+      "god": "Demeter",
+      "image": "Ravenous_Will.png",
+      "text": "While you have no Cast Ammo, take 10% less damage and deal more."
+    },
+    {
+      "name": "Nourished Soul",
+      "god": "Demeter",
+      "image": "Nourished_Soul.png",
+      "text": "Any <b>Health</b> effects are more potent. Restore +30% now."
+    },
+    {
+      "name": "Snow Burst",
+      "god": "Demeter",
+      "image": "Snow_Burst.png",
+      "text": "Whenever you <b>Cast</b>, damage nearby foes and inflict <b>Chill</b>."
+    },
+    {
+      "name": "Arctic Blast",
+      "god": "Demeter",
+      "image": "Arctic_Blast.png",
+      "prerequisites": ["Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash, Snow Burst"],
+      "text": "Applying 10 stacks of <b>Chill</b> causes a blast, clearing the effect."
+    },
+    {
+      "name": "Killing Freeze",
+      "god": "Demeter",
+      "image": "Killing_Freeze.png",
+      "prerequisites": ["Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash, Snow Burst"],
+      "text": "Applying <b>Chill</b> to all enemies causes them to <b>Slow</b> and <b>Decay</b>."
+    },
+    {
+      "name": "Glacial Glare",
+      "god": "Demeter",
+      "image": "Glacial_Glare.png",
+      "prerequisites": ["Crystal Beam"],
+      "text": "Your <b>Cast</b> fires longer and inflicts <b>Chill</b>."
+    },
+    {
+      "name": "Winter Harvest",
+      "god": "Demeter",
+      "legendary": true,
+      "image": "Winter_Harvest.png",
+      "prerequisites": [
+        "Arctic Blast, Ravenous Will, Killing Freeze", "Arctic Blast, Ravenous Will, Killing Freeze"
+      ],
+      "text": "Chill-affected foes shatter at 10% hp, inflicting Chill nearby."
+    },
+    {
+      "name": "Cold Embrace",
+      "god": "Demeter/Aphrodite",
+      "duo": true,
+      "image": "Cold_Embrace.png",
+      "prerequisites": [
+        "Crystal Beam",
+        "Heartbreak Strike, Passion Dash, Heartbreak Flourish, Aphrodite's Aid"
+      ],
+      "text": "Your <b>Cast</b> crystal fires its beam directly at you for <b>4</b> seconds."
+    },
+    {
+      "name": "Freezing Vortex",
+      "god": "Demeter/Ares",
+      "duo": true,
+      "image": "Freezing_Vortex.png",
+      "prerequisites": [
+        "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash",
+        "Slicing Shot, Slicing Flare"
+      ],
+      "text": "Your <b>Cast</b> inflicts <b>Chill</b>, but is smaller and moves slower."
+    },
+    {
+      "name": "Crystal Clarity",
+      "god": "Demeter/Artemis",
+      "duo": true,
+      "image": "Crystal_Clarity.png",
+      "prerequisites": [
+        "Crystal Beam",
+        "Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash"
+      ],
+      "text": "Your <b>Cast</b> is stronger and tracks foes more effectively."
+    },
+    {
+      "name": "Stubborn Roots",
+      "god": "Demeter/Athena",
+      "duo": true,
+      "image": "Stubborn_Roots.png",
+      "prerequisites": [
+        "Frost Strike, Mistral Dash, Frost Flourish, Crystal Beam, Demeter's Aid",
+        "Divine Strike, Divine Flourish, Phalanx Shot, Divine Dash, Athena's Aid"
+      ],
+      "text": "While you have no <b>Death/Stubborn Defiance</b> your Health slowly."
+    },
+    {
+      "name": "Drunken Strike",
+      "god": "Dionysus",
+      "type": "attack",
+      "image": "Drunken_Strike.png",
+      "text": "Your <b>Attack</b> inflicts <b>Hangover</b>."
+    },
+    {
+      "name": "Drunken Flourish",
+      "god": "Dionysus",
+      "type": "special",
+      "image": "Drunken_Flourish.png",
+      "text": "Your <b>Special</b> inflicts <b>Hangover</b>."
+    },
+    {
+      "name": "Trippy Shot",
+      "god": "Dionysus",
+      "type": "cast",
+      "image": "Trippy_Shot.png",
+      "text": "Your <b>Cast</b> lobs a projectile that bursts into <b>Festive Fog</b>."
+    },
+    {
+      "name": "Trippy Flare",
+      "god": "Dionysus",
+      "type": "cast",
+      "image": "Trippy_Shot.png",
+      "text": "Your <b>Cast</b> damages foes around you, leaving behind <b>Festive Fog</b>."
+    },
+    {
+      "name": "Drunken Dash",
+      "god": "Dionysus",
+      "type": "dash",
+      "image": "Drunken_Dash.png",
+      "text": "Your <b>Dash</b> inflicts foes near you with <b>Hangover</b>."
+    },
+    {
+      "name": "Dionysus' Aid",
+      "god": "Dionysus",
+      "type": "call",
+      "image": "Dionysus'_Aid.png",
+      "text": "Your <b>Call</b> inflicts <b>Hangover</b> to foes all around you for <b>1.5 Sec</b>."
+    },
+    {
+      "name": "After Party",
+      "god": "Dionysus",
+      "image": "After_Party.png",
+      "text": "If your Health is low after Encounters, restore to the threshold."
+    },
+    {
+      "name": "Positive Outlook",
+      "god": "Dionysus",
+      "image": "Positive_Outlook.png",
+      "text": "Take less damage while at 40% Health or below."
+    },
+    {
+      "name": "Premium Vintage",
+      "god": "Dionysus",
+      "image": "Premium_Vintage.png",
+      "text": "Gain Health when you pick up <b>Nectar</b>. Receive <b>1 Nectar</b> now."
+    },
+    {
+      "name": "Strong Drink",
+      "god": "Dionysus",
+      "image": "Strong_Drink.png",
+      "text": "Using a <b>Fountain</b> restores all Health and gives you bonus damage."
+    },
+    {
+      "name": "Bad Influence",
+      "god": "Dionysus",
+      "image": "Bad_Influence.png",
+      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike"],
+      "text": "Deal more damage while 3 foes are <b>Hangover</b>-afflicted."
+    },
+    {
+      "name": "Numbing Sensation",
+      "god": "Dionysus",
+      "image": "Numbing_Sensation.png",
+      "prerequisites": ["Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike"],
+      "text": "Your <b>Hangover</b> effects also make foes move slower."
+    },
+    {
+      "name": "Peer Pressure",
+      "god": "Dionysus",
+      "image": "Numbing_Sensation.png",
+      "prerequisites": ["Drunken Dash, Drunken Flourish, Drunken Strike"],
+      "text": "<b>Hangover</b>-afflicted foes contaminate other nearby foes every <b>4 Sec</b>."
+    },
+    {
+      "name": "High Tolerance",
+      "god": "Dionysus",
+      "image": "High_Tolerance.png",
+      "prerequisites": ["Trippy Shot, Trippy Flare"],
+      "text": "Take less damage while standing in <b>Festive Fog</b>."
+    },
+    {
+      "name": "Black Out",
+      "god": "Dionysus",
+      "legendary": true,
+      "image": "Black_Out.png",
+      "prerequisites": [
+        "Drunken Strike, Drunken Flourish, Drunken Dash, Dionysus' Aid",
+        "Trippy Shot, Trippy Flare"
+      ],
+      "text": "<b>Hangover</b>-afflicted foes take bonus damage in <b>Festive Fog</b>."
+    },
+    {
+      "name": "Low Tolerance",
+      "god": "Dionysus/Aphrodite",
+      "duo": true,
+      "image": "Low_Tolerance.png",
+      "prerequisites": [
+        "Drunken Strike, Drunken Flourish, Drunken Dash, Dionysus' Aid",
+        "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish"
+      ],
+      "text": "Your <b>Hangover</b> effects stack even more times against <b>Weak</b> foes."
+    },
+    {
+      "name": "Curse of Nausea",
+      "god": "Dionysus/Ares",
+      "duo": true,
+      "image": "Curse_of_Nausea.png",
+      "prerequisites": [
+        "Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike",
+        "Curse of Agony, Curse of Pain, Curse of Vengeance"
+      ],
+      "text": "Your <b>Hangover,/b> effects deal damage faster."
+    },
+    {
+      "name": "Splitting Headache",
+      "god": "Dionysus/Artemis",
+      "duo": true,
+      "image": "Splitting_Headache.png",
+      "prerequisites": [
+        "Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike",
+        "Artemis' Aid, Deadly Flourish, Deadly Strike, True Shot"
+      ],
+      "text": "<b>Hangover</b>-afflicted foes are more likely to take <b>Critical</b> damage."
+    },
+    {
+      "name": "Calculated Risk",
+      "god": "Dionysus/Athena",
+      "duo": true,
+      "image": "Calculated_Risk.png",
+      "prerequisites": [
+        "Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike",
+        "Athena's Aid, Divine Dash, Divine Flourish, Divine Strike"
+      ],
+      "text": "Your foes' ranged-attack projectiles are slower."
+    },
+    {
+      "name": "Ice Wine",
+      "god": "Dionysus/Demeter",
+      "duo": true,
+      "image": "Ice_Wine.png",
+      "prerequisites": ["Trippy Shot", "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"],
+      "text": "Your <b>Cast</b> blasts an area with freezing <b>Festive Fog</b> that inflicts <b>Chill</b>."
+    },
+    {
+      "name": "Swift Strike",
+      "god": "Hermes",
+      "image": "Swift_Strike.png",
+      "text": "Your <b>Attack</b> is +X% faster."
+    },
+    {
+      "name": "Swift Flourish",
+      "god": "Hermes",
+      "image": "Swift_Flourish.png",
+      "text": "Your <b>Special</b> is +X% faster."
+    },
+    {
+      "name": "Flurry Cast",
+      "god": "Hermes",
+      "image": "Flurry_Cast.png",
+      "text": "Your <b>Cast</b> is +X% faster and fully automatic."
+    },
+    {
+      "name": "Quick Favor",
+      "god": "Hermes",
+      "image": "Quick_Favor.png",
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "Your <b>Call</b> charges up automatically."
+    },
+    {
+      "name": "Hyper Sprint",
+      "god": "Hermes",
+      "image": "Hyper_Sprint.png",
+      "text": "For X seconds after you <b>Dash</b>, become <b>Sturdy</b> and run +100% faster."
+    },
+    {
+      "name": "Greater Haste",
+      "god": "Hermes",
+      "image": "Greater_Haste.png",
+      "text": "You move X% faster."
+    },
+    {
+      "name": "Quick Recovery",
+      "god": "Hermes",
+      "image": "Quick_Recovery.png",
+      "text": "After you take damage, quickly <b>Dash</b> to recover up to X% Health lost."
+    },
+    {
+      "name": "Greater Evasion",
+      "god": "Hermes",
+      "image": "Greater_Evasion.png",
+      "text": "You have +X% chance to <b>Dodge</b>."
+    },
+    {
+      "name": "Greatest Reflex",
+      "god": "Hermes",
+      "image": "Greatest_Reflex.png",
+      "text": "You can <b>Dash</b> +X more time(s) in a row."
+    },
+    {
+      "name": "Second Wind",
+      "god": "Hermes",
+      "image": "Second_Wind.png",
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "After using <b>Call</b>, gain <b>Dodge</b> chance and move speed for <b>6 Sec</b>."
+    },
+    {
+      "name": "Quick Reload",
+      "god": "Hermes",
+      "image": "Quick_Reload.png",
+      "text": "Foes drop Cast Ammo stuck in them faster."
+    },
+    {
+      "name": "Side Hustle",
+      "god": "Hermes",
+      "image": "Side_Hustle.png",
+      "text": "Each time you enter a <b>Chamber</b>, gain a bit wealth."
+    },
+    {
+      "name": "Rush Delivery",
+      "god": "Hermes",
+      "image": "Rush_Delivery.png",
+      "prerequisites": ["Greater Haste, Hyper Sprint, Lambent Plume"],
+      "text": "You deal bonus damage based on any bonus move speed."
+    },
+    {
+      "name": "Auto Reload",
+      "god": "Hermes",
+      "image": "Auto_Reload.png",
+      "text": "You regenerate Cast Ammo faster."
+    },
+    {
+      "name": "Greater Recall",
+      "legendary": true,
+      "god": "Hermes",
+      "image": "Greater_Recall.png",
+      "prerequisites": ["Flurry Cast, Quick Reload, Lambent Plume"],
+      "text": "Your Cast Ammo automatically return to you."
+    },
+    {
+      "name": "Bad News",
+      "legendary": true,
+      "god": "Hermes",
+      "image": "Bad_News.png",
+      "prerequisites": ["Auto Reload, Lambent Plume"],
+      "text": "Your cast deals more damage to foes without Cast Ammo on them."
+    },
+    {
+      "name": "Tempest Strike",
+      "god": "Poseidon",
+      "type": "attack",
+      "image": "Tempest_Strike.png",
+      "text": "Your <b>Attack</b> deals more damage and knocks foes away."
+    },
+    {
+      "name": "Tempest Flourish",
+      "god": "Poseidon",
+      "type": "special",
+      "image": "Tempest_Flourish.png",
+      "text": "Your <b>Special</b> deals more damage and knocks foes away."
+    },
+    {
+      "name": "Flood Shot",
+      "god": "Poseidon",
+      "type": "cast",
+      "image": "Flood_Shot.png",
+      "text": "Your <b>Cast</b> damages foes in an area and knocks them away."
+    },
+    {
+      "name": "Flood Flare",
+      "god": "Poseidon",
+      "type": "cast",
+      "image": "Flood_Shot.png",
+      "text": "Your <b>Cast</b> damages foes around you and knocks them away."
+    },
+    {
+      "name": "Tidal Dash",
+      "god": "Poseidon",
+      "type": "dash",
+      "image": "Tidal_Dash.png",
+      "text": "Your <b>Dash</b> damages foes in an area and knocks them away."
+    },
+    {
+      "name": "Poseidon's Aid",
+      "god": "Poseidon",
+      "type": "call",
+      "image": "Poseidon's_Aid.png",
+      "text": "Your <b>Call</b> makes you surge into foes while <b>Impervious</b> for <b>1.2 Sec</b>."
+    },
+    {
+      "name": "Typhoon's Fury",
+      "god": "Poseidon",
+      "image": "Typhoon's_Fury.png",
+      "prerequisites": ["Tempest Strike, Tidal Dash, Flood Shot, Tempest Flourish, Poseidon's Aid"],
+      "text": "You deal more damage when slamming foes into barriers."
+    },
+    {
+      "name": "Hydraulic Might",
+      "god": "Poseidon",
+      "image": "Hydraulic_Might.png",
+      "text": "Your <b>Attack</b> and <b>Special</b> are stronger the first <b>10 Sec.</b> in <b>Encounter(s)</b>."
+    },
+    {
+      "name": "Ocean's Bounty",
+      "god": "Poseidon",
+      "image": "Ocean's_Bounty.png",
+      "text": "Any Gemstone, Darkness or Obols chamber rewards are worth more."
+    },
+    {
+      "name": "Sunken Treasure",
+      "god": "Poseidon",
+      "image": "Sunken_Treasure.png",
+      "text": "Gain an assortment of Gemstone, Darkness, Obols and Health."
+    },
+    {
+      "name": "Razor Shoals",
+      "god": "Poseidon",
+      "image": "Razor_Shoals.png",
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"],
+      "text": "Using knock-away effects also Rupture foes."
+    },
+    {
+      "name": "Boiling Point",
+      "god": "Poseidon",
+      "image": "Boiling_Point.png",
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "Your <b>God Gauge</b> charges faster when you take damage."
+    },
+    {
+      "name": "Breaking Wave",
+      "god": "Poseidon",
+      "image": "Breaking_Wave.png",
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"],
+      "text": "Slamming foes into walls or corners creates a watery blast in the area."
+    },
+    {
+      "name": "Wave Pounding",
+      "god": "Poseidon",
+      "image": "Wave_Pounding.png",
+      "prerequisites": ["Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"],
+      "text": "Your boons with <b>Knock-Away</b> effects deal bonus damage to bosses."
+    },
+    {
+      "name": "Rip Current",
+      "god": "Poseidon",
+      "image": "Rip_Current.png",
+      "prerequisites": ["Poseidon's Aid"],
+      "text": "Your <b>Call</b> pulls in foes and the effect lasts longer."
+    },
+    {
+      "name": "Huge Catch",
+      "god": "Poseidon",
+      "legendary": true,
+      "image": "Huge_Catch.png",
+      "prerequisites": ["Ocean's Bounty, Sunken Treasure", "Ocean's Bounty, Sunken Treasure"],
+      "text": "You have a greater chance to find <b>Fishing Point</b> in each <b>Chamber</b>."
+    },
+    {
+      "name": "Second Wave",
+      "god": "Poseidon",
+      "legendary": true,
+      "image": "Second_Wave.png",
+      "prerequisites": [
+        "Breaking Wave, Typhoon's Fury", "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash"
+      ],
+      "text": "Your knock-away effects shove foes a second time after the first."
+    },
+    {
+      "name": "Sweet Nectar",
+      "god": "Poseidon/Aphrodite",
+      "duo": true,
+      "image": "Sweet_Nectar.png",
+      "prerequisites": [
+        "Tempest Strike, Tempest Flourish, Flood Shot, Tidal Dash, Poseidon's Aid",
+        "Passion Dash, Crush Shot, Heartbreak Strike, Heartbreak Flourish, Aphrodite's Aid"
+      ],
+      "text": "Any Poms of Power you find are more effective."
+    },
+    {
+      "name": "Curse of Drowning",
+      "god": "Poseidon/Ares",
+      "duo": true,
+      "image": "Curse_of_Drowning.png",
+      "prerequisites": ["Flood Shot", "Ares' Aid, Blade Dash, Curse of Agony, Curse of Pain"],
+      "text": "Your <b>Cast</b> is a pulse that deals damage to foes around you."
+    },
+    {
+      "name": "Mirage Shot",
+      "god": "Poseidon/Artemis",
+      "duo": true,
+      "image": "Mirage_Shot.png",
+      "prerequisites": [
+        "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash",
+        "Artemis' Aid, Deadly Flourish, Deadly Strike, True Shot"
+      ],
+      "text": "Your <b>Cast</b> fires a second projectile, though it has reduced damage."
+    },
+    {
+      "name": "Unshakable Mettle",
+      "god": "Poseidon/Athena",
+      "duo": true,
+      "image": "Unshakable_Mettle.png",
+      "prerequisites": [
+        "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash",
+        "Athena's Aid, Divine Dash, Divine Flourish, Divine Strike, Phalanx Shot"
+      ],
+      "text": "You cannot be stunned, and resist some damage from <b>Bosses</b>."
+    },
+    {
+      "name": "Blizzard Shot",
+      "god": "Poseidon/Demeter",
+      "duo": true,
+      "image": "Blizzard_Shot.png",
+      "prerequisites": [
+        "Flood Shot",
+        "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"
+      ],
+      "text": "Your <b>Cast</b> moves slowly, piercing foes and firing shards around it."
+    },
+    {
+      "name": "Exclusive Access",
+      "god": "Poseidon/Dionysus",
+      "duo": true,
+      "image": "Exclusive_Access.png",
+      "prerequisites": [
+        "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike, Tidal Dash",
+        "Dionysus' Aid, Drunken Dash, Drunken Flourish, Drunken Strike, Trippy Shot"
+      ],
+      "text": "Any <b>Boons</b> you find have superior effects."
+    },
+    {
+      "name": "Lightning Strike",
+      "god": "Zeus",
+      "type": "attack",
+      "image": "Lightning_Strike.png",
+      "text": "Your <b>Attack</b> emits chain-lightning when you damage a foe."
+    },
+    {
+      "name": "Thunder Flourish",
+      "god": "Zeus",
+      "type": "special",
+      "image": "Thunder_Flourish.png",
+      "text": "Your <b>Special</b> causes a lightning bolt to strike nearby foes."
+    },
+    {
+      "name": "Electric Shot",
+      "god": "Zeus",
+      "type": "cast",
+      "image": "Electric_Shot.png",
+      "text": "Your <b>Cast</b> is a burst of chain-lightning that bounces between foes."
+    },
+    {
+      "name": "Thunder Flare",
+      "god": "Zeus",
+      "type": "cast",
+      "image": "Electric_Shot.png",
+      "text": "Your <b>Cast</b> causes a lightning bolt to strike nearby foes."
+    },
+    {
+      "name": "Thunder Dash",
+      "god": "Zeus",
+      "type": "dash",
+      "image": "Thunder_Dash.png",
+      "text": "Your <b>Dash</b> causes a lightning bolt to strike nearby foes."
+    },
+    {
+      "name": "Zeus' Aid",
+      "god": "Zeus",
+      "type": "call",
+      "image": "Zeus'_Aid.png",
+      "text": "Your <b>Call</b> makes lightning strike nearby foes repeatedly for <b>1.5 Sec</b>."
+    },
+    {
+      "name": "Heaven's Vengeance",
+      "god": "Zeus",
+      "image": "Heaven's_Vengeance.png",
+      "text": "After you take damage, your foe is struck by lightning."
+    },
+    {
+      "name": "Lightning Reflexes",
+      "god": "Zeus",
+      "image": "Lightning_Reflexes.png",
+      "text": "After you <b>Dash</b> just before getting hit, a bolt strikes a nearby foes."
+    },
+    {
+      "name": "Storm Lightning",
+      "god": "Zeus",
+      "image": "Storm_Lightning.png",
+      "prerequisites": ["Electric Shot, Lightning Strike"],
+      "text": "Your chain-lightning effects bounce more times before expiring."
+    },
+    {
+      "name": "High Voltage",
+      "god": "Zeus",
+      "image": "High_Voltage.png",
+      "prerequisites": ["Thunder Dash, Thunder Flourish, Zeus' Aid"],
+      "text": "Your lightning bolt effects deal damage in a larger area."
+    },
+    {
+      "name": "Double Strike",
+      "god": "Zeus",
+      "image": "Double_Strike.png",
+      "prerequisites": ["Thunder Dash, Thunder Flourish, Zeus' Aid"],
+      "text": "Your lightning bolt effects have a chance to strike twice."
+    },
+    {
+      "name": "Static Discharge",
+      "god": "Zeus",
+      "image": "Static_Discharge.png",
+      "prerequisites": [
+        "Thunder Flourish, Zeus' Aid, Thunder Dash, Heaven's Vengeance, Lightning Strike, Electric Shot, Lightning Reflexes"
+      ],
+      "text": "Your lightning effects also make foes <b>Jolted</b>."
+    },
+    {
+      "name": "Clouded Judgment",
+      "god": "Zeus",
+      "image": "Clouded_Judgment.png",
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "Your <b>God Gauge</b> charges faster when you deal or take damage."
+    },
+    {
+      "name": "Billowing Strength",
+      "god": "Zeus",
+      "image": "Billowing_Strength.png",
+      "prerequisites": [
+        "Aphrodite's Aid, Ares' Aid, Artemis' Aid, Athena's Aid, Demeter's Aid, Dionysus' Aid, Poseidon's Aid, Zeus' Aid"
+      ],
+      "text": "After using <b>Call</b>, you deal more damage for <b>15 Sec</b>."
+    },
+    {
+      "name": "Splitting Bolt",
+      "god": "Zeus",
+      "legendary": true,
+      "image": "Splitting_Bolt.png",
+      "prerequisites": ["Double Strike, High Voltage, Storm Lightning"],
+      "text": "All your lightning effects create an additional burst."
+    },
+    {
+      "name": "Smoldering Air",
+      "god": "Zeus/Aphrodite",
+      "duo": true,
+      "image": "Smoldering_Air.png",
+      "prerequisites": [
+        "Lightning Strike, Thunder Dash, Thunder Flourish, Electric Shot, Zeus' Aid",
+        "Heartbreak Strike, Heartbreak Flourish, Crush Shot, Passion Dash, Aphrodite's Aid"
+      ],
+      "text": "Your <b>Call</b> charges up automatically, but is capped at 25%."
+    },
+    {
+      "name": "Vengeful Mood",
+      "god": "Zeus/Ares",
+      "duo": true,
+      "image": "Vengeful_Mood.png",
+      "prerequisites": [
+        "Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid",
+        "Ares' Aid, Blade Dash, Curse of Agony, Curse of Pain, Slicing Shot",
+        "Curse of Vengeance, Frozen Touch, Heaven's Vengeance, Holy Shield, Wave of Despair"
+      ],
+      "text": "Your <b>Revenge</b> attacks sometimes occur without taking damage."
+    },
+    {
+      "name": "Lightning Rod",
+      "god": "Zeus/Artemis",
+      "duo": true,
+      "image": "Lightning_Rod.png",
+      "prerequisites": [
+        "Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid",
+        "Artemis' Aid, Deadly Flourish, Deadly Strike, Hunter Dash, True Shot"
+      ],
+      "text": "Your collectible Cast Ammo strike nearby foes with lightning every <b>1 Sec</b>."
+    },
+    {
+      "name": "Lightning Phalanx",
+      "god": "Zeus/Athena",
+      "duo": true,
+      "image": "Lightning_Phalanx.png",
+      "prerequisites": [
+        "Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid",
+        "Phalanx Shot"
+      ],
+      "text": "Your Phalanx Shot <b>Cast</b> bounces between nearby foes."
+    },
+    {
+      "name": "Cold Fusion",
+      "god": "Zeus/Demeter",
+      "duo": true,
+      "image": "Cold_Fusion.png",
+      "prerequisites": [
+        "Static Discharge",
+        "Demeter's Aid, Frost Flourish, Frost Strike, Mistral Dash"
+      ],
+      "text": "<b>Jolted</b> status does not expire on your enemies' attacks."
+    },
+    {
+      "name": "Scintillating Feast",
+      "god": "Zeus/Dionysus",
+      "duo": true,
+      "image": "Scintillating_Feast.png",
+      "prerequisites": [
+        "Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid",
+        "High Tolerance, Trippy Shot"
+      ],
+      "text": "Your <b>Festive Fog</b> effects also deal lightning damage periodically."
+    },
+    {
+      "name": "Sea Storm",
+      "god": "Zeus/Poseidon",
+      "duo": true,
+      "image": "Sea_Storm.png",
+      "prerequisites": [
+        "Electric Shot, Lightning Strike, Thunder Dash, Thunder Flourish, Zeus' Aid",
+        "Flood Shot, Poseidon's Aid, Tempest Flourish, Tempest Strike"
+      ],
+      "text": "Your knock-away effects also cause foes to be struck by lightning."
+    }
+  ]
+}

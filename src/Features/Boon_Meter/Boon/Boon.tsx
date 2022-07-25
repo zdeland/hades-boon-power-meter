@@ -1,13 +1,7 @@
-export interface IBoonProps {
-  id: string,
-  name: string;
-  god: string;
-  weapon_category: string;
-  buff_category: string;
-  damage_modifier: number;
-}
+import React from "react";
+import IBoonProps from "./BoonInterface";
 
-export default function Boon (props: IBoonProps) {
+export default function Boon (props: IBoonProps):React.ReactElement {
   return (
     <div>
       <br />
