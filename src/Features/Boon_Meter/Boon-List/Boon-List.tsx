@@ -1,21 +1,13 @@
 import Boon from "../Boon/Boon";
 import IBoonProps from "../Boon/BoonInterface";
 
-// export interface IBoonListProps {
-//   boonList: json[];
-// }
-
-interface ICard {
-  name: string;
-  image: string;
-  id: number;
-}
-
+// may be used later to pass in an array of objects
 interface IProps {
   card: IBoonProps;
   key: string;
 }
 
+// to be replaced by importing json data in redux state
 const cards: IBoonProps[] = [
   {
     id: "1",
