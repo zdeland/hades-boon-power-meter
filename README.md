@@ -13,7 +13,7 @@ To hone our skills and create a useful webapp for other Hades addicts.
 
 ## Architecture
 
-Implemtning "Screaming Architecture" through feature-based structuring of componenets.
+Implementing "Screaming Architecture" through feature-based structuring of componenets.
 
 ## Available Scripts
 

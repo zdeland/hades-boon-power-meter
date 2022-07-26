@@ -1,0 +1,71 @@
+.container {
+  rotate: 45deg;
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+  margin-top: 35px;
+  border: 10px solid pink;
+  /* border-image: repeating-linear-gradient(
+      45deg,
+      pink,
+      pink 1%,
+      purple 1%,
+      purple 8%
+    )
+    10; */
+  border-image: url(../../Assets/Images/boon_container_border.png) 10;
+}
+
+.gridItem {
+  width: 75px;
+  height: 75px;
+  /* padding-bottom: 21.833%; */
+  overflow: hidden;
+  float: left;
+  background: #bbb;
+  transform: rotate(45deg);
+  /* margin: 5.5%; */
+  /* margin-top: -11%; */
+}
+
+.gridItem:nth-child(10n + 1),
+.gridItem:nth-child(10n + 2),
+.gridItem:nth-child(10n + 3),
+.gridItem:nth-child(10n + 4),
+.gridItem:nth-child(10n + 5) {
+  margin-left: 21.9%;
+}
+
+.gridItem:nth-child(1),
+.gridItem:nth-child(2),
+.gridItem:nth-child(3),
+.gridItem:nth-child(4),
+.gridItem:nth-child(5) {
+  margin-top: 5%;
+  margin-left: -21.9%;
+}
+
+/* .gridItem:nth-child(5n + 6) {
+  clear: left;
+} */
+
+.gridItem:nth-child(5n + 6):last-of-type {
+  margin-left: 38.25%;
+}
+
+.gridItem:hover {
+  background: #fff;
+}
+
+.gridInner {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-45deg);
+  text-align: center;
+  padding-top: 40%;
+  font-size: 2em;
+}
