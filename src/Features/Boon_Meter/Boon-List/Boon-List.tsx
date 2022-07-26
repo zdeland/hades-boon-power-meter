@@ -1,73 +1,43 @@
-import Boon from "../Boon/Boon";
+import OrigDataInterface from "../Boon/OrigDataInterface"
 import IBoonProps from "../Boon/BoonInterface";
+import IOrigDataProps from "../Boon/OrigDataInterface";
 
-// may be used later to pass in an array of objects
+
 interface IProps {
-  card: IBoonProps;
-  key: string;
+  boonsList: IOrigDataProps[]
 }
 
-// to be replaced by importing json data in redux state
-const cards: IBoonProps[] = [
-  {
-    id: "1",
-    name: "ZRD Mega Nuke",
-    god: "ZRD",
-    weapon_category: "attack",
-    buff_category: "damage",
-    damage_modifier: 1000
-  },
-  {
-    id: "2",
-    name: "ZRD Wet Noodle",
-    god: "ZRD",
-    weapon_category: "attack",
-    buff_category: "damage",
-    damage_modifier: 50
-  },
-  {
-    id: "3",
-    name: "ZRD Whimpy Whistle",
-    god: "ZRD",
-    weapon_category: "call",
-    buff_category: "support",
-    damage_modifier: 0
-  },
-];
+export default function BoonList(props:IProps) {
+  console.log("boons list props: ",props)
 
-const Card: React.FC<{ card: IBoonProps }> = ({ card }) => {
-  return (
-    <tr>
-      <td>
-      {card.name}: {card.weapon_category} 
-      </td>
-      <td>
-        {card.damage_modifier}
-      </td>
-    </tr>
-  )
-  
-};
+  const Card: React.FC<{ card: IOrigDataProps }> = ({ card }) => {
+    return (
+      <tr>
+        <td>
+        {card.name}: {card.god} 
+        </td>
+        <td>
+          {card.text}
+        </td>
+      </tr>
+  )}
 
-export default function BoonList() {
-
-    return (<>
-      <table>
-      <thead>
-        <tr>
-            <td>Boon</td>
-            <td>Damage Modifier</td>
-        </tr>
-        </thead>
-        <tbody>
-        {cards.map(card => {
-          return <Card key={card.id} card={card} />;
-        })}
-        </tbody>
-      </table>
-    </>)
+  return (<>
+    <table>
+    <thead>
+      <tr>
+          <td>Boon</td>
+          <td>Text</td>
+      </tr>
+      </thead>
+      <tbody>
+      {props.boonsList.map(b => {
+        return <Card key={b.name} card={b} />;
+      })}
+      </tbody>
+    </table>
+  </>)
 }
 
- 
 
  

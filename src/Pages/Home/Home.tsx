@@ -2,14 +2,17 @@ import React, { useEffect, useState } from "react";
 import logo from "../../Assets/Images/crap_hades_logo.png";
 import "./HomePage.css";
 import charon_obol from "../../Assets/Images/charon_obol_edited.png";
-import BoonList from "../../Features/Boon_Meter/Boon-List/Boon-List";
 import Boon from "../../Features/Boon_Meter/Boon/Boon";
 import BoonContainer from "../../Features/UI/BoonContainer";
 import lightning_strike from "../../Assets/Images/Lightning_Strike_edited.png";
 import special_placeholder from "../../Assets/Images/special_boon_placeholder.png";
 import { chunk } from "lodash";
+import "./HomePage.css";
+import BoonList from "../../Features/Boon_Meter/Boon-List/Boon-List";
 
 import { useAppSelector } from "../../App/hooks";
+import IOrigDataProps from "../../Features/Boon_Meter/Boon/OrigDataInterface";
+
 import clsx from "clsx";
 
 function HomePage() {
@@ -87,13 +90,13 @@ function HomePage() {
     mapBoons();
   }, []);
 
-  // let boons: React.ReactElement[] = []
+  const boonSet1: IOrigDataProps[] = appState.boonMeter.boonsSet1.map((b) => {
+    return b;
+  });
 
-  // boons = appState.boonMeter.boons.map(b=>{
-  //   <Boon id={'zach-id'} name={'ZRD Mega Nuke'} god={'ZRD'} weapon_category={'attack'} buff_category={'damage'} damage_modifier={1000} />
-  // })
-
-  // console.log("BOONS: ", boons)
+  const boonSet2: IOrigDataProps[] = appState.boonMeter.boonsSet2.map((b) => {
+    return b;
+  });
 
   return (
     <div className="App">
@@ -137,54 +140,6 @@ function HomePage() {
               );
             }
           })}
-          {/* <div id="core" className="boon-container-stack">
-            <BoonContainer boon={lightning_strike} placeholder={null} />
-            <BoonContainer boon={null} placeholder={special_placeholder} />
-            <BoonContainer boon={null} placeholder={null} />
-            <BoonContainer boon={null} placeholder={null} />
-            <BoonContainer boon={null} placeholder={null} />
-          </div>
-          <div>
-            {[
-              { boon: lightning_strike, placeholder: null },
-              { boon: null, placeholder: null },
-              { boon: null, placeholder: null },
-              { boon: null, placeholder: null },
-              { boon: null, placeholder: special_placeholder },
-            ].map((el, index) => (
-              <BoonContainer
-                boon={el.boon}
-                placeholder={el.placeholder}
-                className={index <= 3 ? "even" : "odd"}
-              />
-            ))}
-          </div> */}
-          {/* <div className="boon-container-stack even">
-            <BoonContainer boon={null} placeholder={special_placeholder} />
-            <BoonContainer boon={null} placeholder={null} />
-            <BoonContainer boon={null} placeholder={null} />
-            <BoonContainer boon={null} placeholder={null} />
-          </div>
-          <div id="core" className="boon-container-stack odd">
-            <BoonContainer boon={lightning_strike} placeholder={null} />
-            <BoonContainer boon={null} placeholder={special_placeholder} />
-            <BoonContainer boon={null} placeholder={null} />
-            <BoonContainer boon={null} placeholder={null} />
-            <BoonContainer boon={null} placeholder={null} />
-          </div>
-          <div className="boon-container-stack even">
-            <BoonContainer boon={null} placeholder={special_placeholder} />
-            <BoonContainer boon={null} placeholder={null} />
-            <BoonContainer boon={null} placeholder={null} />
-            <BoonContainer boon={null} placeholder={null} />
-          </div>
-          <div id="core" className="boon-container-stack odd">
-            <BoonContainer boon={lightning_strike} placeholder={null} />
-            <BoonContainer boon={null} placeholder={special_placeholder} />
-            <BoonContainer boon={null} placeholder={null} />
-            <BoonContainer boon={null} placeholder={null} />
-            <BoonContainer boon={null} placeholder={null} />
-          </div> */}
         </section>
       </main>
     </div>

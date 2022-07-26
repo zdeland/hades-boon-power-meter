@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "name": "ZRD Heartbreak Strike",
+      "god": "ZRD",
+      "type": "attack",
+      "image": "Heartbreak_Strike.png",
+      "text": "Your <b>Attack</b> deals more damage and inflicts <b>Weak</b>."
+    },
+    {
+      "name": "ZRD Heartbreak Flourish",
+      "god": "ZRD",
+      "type": "special",
+      "image": "Heartbreak_Flourish.png",
+      "text": "Your <b>Special</b> deals more damage and inflicts <b>Weak</b>."
+    },
+    {
+      "name": "ZRD Crush Shot",
+      "god": "ZRD",
+      "type": "cast",
+      "image": "Crush_Shot.png",
+      "text": "Your <b>Cast</b> is a wide, short-range blast that inflicts <b>Weak</b>."
+    },
+    {
+      "name": "ZRD Passion Flare",
+      "god": "ZRD Aphrodite",
+      "type": "cast",
+      "image": "Crush_Shot.png",
+      "text": "Your <b>Cast</b> damages foes around you and inflicts <b>Weak</b>."
+    }
+  ]
+}
